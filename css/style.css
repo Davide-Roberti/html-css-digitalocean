@@ -1,0 +1,49 @@
+.ms-bg-lightblue {
+    background-color: #0049ff;
+}
+
+.ms-bg-grey {
+    background-color: #f4f5f9;
+}
+
+.ms-bg-blue {
+    background-color: #000e28;
+}
+
+
+/* stilizzazione navbar */
+
+.logodigital {
+    height: 50px;
+    width: 230px;
+}
+
+.logodigital {
+    transform: translateY(-72px);
+}
+
+.navbar {
+    overflow-y: hidden;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #434d66;
+    font-weight: 600;
+}
+
+.navbar-default button {
+    background-color: white;
+    color: #0a68ee;
+    border: 1px solid #0a68ee;
+    border-radius: 4px;
+    padding: 8px 15px 5px;
+}
+
+.navbar-default button:hover {
+    background-color: #0a68ee;
+    color: white;
+}
+
+.navbar-default {
+    background-color: white;
+}
