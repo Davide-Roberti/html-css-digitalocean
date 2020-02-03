@@ -46,4 +46,29 @@
 
 .navbar-default {
     background-color: white;
+    margin-bottom: 0;
+}
+
+/* stilizzazione jumbotron */
+
+#jumbotron {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+}
+
+
+#jumbotron .testi p {
+    color: #b6d2ff;
+
+    font-size: 25px;
+}
+
+#jumbotron .testi h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#jumbotron .jumbotron {
+    background-color: white;
+    text-align: center;
 }
