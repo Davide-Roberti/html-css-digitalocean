@@ -72,3 +72,11 @@
     background-color: white;
     text-align: center;
 }
+
+.jumbotron h3 {
+    color: #051b4c;
+}
+
+.jumbotron input {
+    border: none;
+}
