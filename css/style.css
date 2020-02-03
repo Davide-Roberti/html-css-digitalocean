@@ -10,6 +10,9 @@
     background-color: #000e28;
 }
 
+.row {
+    margin: 0 auto;
+}
 
 /* stilizzazione navbar */
 
@@ -235,4 +238,54 @@ button.account:hover {
 .area-brand a:hover {
     color: #395ea4;
     text-decoration: none;
+}
+
+/* stilizzazione prima sezione bianca */
+
+.prima-sezione-bianca {
+    padding: 100px 0 130px;
+}
+
+.prima-sezione-bianca h2 {
+    color: #001d53;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.prima-sezione-bianca h4 {
+    color: #001d53;
+    margin-bottom: 15px;
+}
+
+.prima-sezione-bianca p {
+    color: #838b98;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.prima-sezione-bianca .sottotitolo {
+    font-size: 20px;
+}
+
+.prima-sezione-bianca i {
+    color: #0868f0;
+    font-size: 30px;
+}
+
+.prima-sezione-bianca li {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #838b98;
+    border-left: 2px solid #e7e8ea;
+}
+
+.prima-sezione-bianca li:hover {
+    color: #001d53;
+}
+
+.prima-sezione-bianca li:first-child {
+    color: #001d53;
+    border-left: 2px solid #2d63ad;
 }
