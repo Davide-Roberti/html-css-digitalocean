@@ -200,3 +200,39 @@ button.account:hover {
 .jumbotron .termini:hover {
     color: #0069ff;
 }
+
+/* stilizzazione area-brand */
+
+.area-brand {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 70px 0;
+}
+
+.area-brand p {
+    color: #959cae;
+}
+
+.area-brand img {
+    height: 76px;
+}
+
+
+.area-brand .ultimo-brand {
+    height: 36px;
+    transform: translateY(50%);
+}
+
+.area-brand a {
+    color: #395ea4;
+}
+
+.area-brand p.link {
+    margin-top: 30px;
+}
+
+.area-brand a:hover {
+    color: #395ea4;
+    text-decoration: none;
+}
