@@ -265,7 +265,7 @@ button.account:hover {
 }
 
 .prima-sezione-bianca .sottotitolo {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .prima-sezione-bianca i {
@@ -288,4 +288,54 @@ button.account:hover {
 .prima-sezione-bianca li:first-child {
     color: #001d53;
     border-left: 2px solid #2d63ad;
+}
+
+/* stilizzazione sezione slide */
+
+.sezione-slide {
+    padding: 100px 0;
+}
+
+.sezione-slide h2 {
+    color: #001d53;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.sezione-slide p {
+    color: #838b98;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sezione-slide .sottotitolo {
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.sezione-slide span {
+    font-size: 30px;
+    transform: translateY(260px);
+}
+
+.glyphicon-menu-right {
+    color: #051b4c;
+}
+
+.glyphicon-menu-right:hover {
+    color: #0049ff;
+}
+
+.glyphicon-menu-left {
+    color: #abb2c2;
+}
+
+.sezione-slide i {
+    font-size: 10px;
+    padding: 0 4px;
+    color: #0069ff;
 }
