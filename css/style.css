@@ -488,3 +488,27 @@ button.account:hover {
 .sezione-slide span.rockerbox-lt-gt {
     transform: translateY(150px);
 }
+
+/* stilizzazione seconda sezione azzurra */
+
+.seconda-sezione-azzurra {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.seconda-sezione-azzurra h2 {
+    font-weight: 600;
+}
+
+.seconda-sezione-azzurra button {
+    color: #0f67e5;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 25px;
+    margin-top: 30px;
+}
