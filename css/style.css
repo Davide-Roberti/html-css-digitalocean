@@ -389,6 +389,14 @@ button.account:hover {
     background-color: #041b4f;
     background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
     background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.world h2 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 60px;
 }
 
 .world span {
@@ -400,6 +408,13 @@ button.account:hover {
     display: inline-block;
     float: right;
     margin-right: 15px;
+    font-weight: 600;
+    color: #24beca;
+}
+
+.world a:hover {
+    color: #005fe6;
+    text-decoration: none;
 }
 
 .linea-world {
@@ -411,4 +426,19 @@ button.account:hover {
 .linea-world:last-child {
     border-bottom: none;
     padding-bottom: 20px;
+}
+
+.linea-world .targa {
+    font-weight: 600;
+}
+
+.linea-world .place {
+    color: #8393b7;
+}
+
+/* stilizzazione box rockerbox */
+
+.rockerbox {
+    background-color: white;
+    border: 1px solid #e7e8ea;
 }
