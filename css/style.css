@@ -547,3 +547,29 @@ button.account:hover {
     color: white;
     text-decoration: none;
 }
+
+.footer-inferiore {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.footer-inferiore .fa-digital-ocean {
+    color: #0080ff;
+    font-size: 40px;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+.footer-inferiore span {
+    color: #798291;
+    font-size: 15px;
+}
+
+.footer-inferiore a {
+    font-size: 23px;
+    color: #7f8794;
+}
+
+.footer-inferiore a:hover {
+    color: white;
+}
