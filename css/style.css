@@ -381,3 +381,34 @@ button.account:hover {
     color: #2a63b2;
     text-decoration: none;
 }
+
+/* stilizzazione sezione world */
+
+.world {
+    color: white;
+    background-color: #041b4f;
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+    background-size: cover;
+}
+
+.world span {
+    padding-right: 70px;
+}
+
+.world a {
+    text-align: right;
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+}
+
+.linea-world {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3c517e;
+}
+
+.linea-world:last-child {
+    border-bottom: none;
+    padding-bottom: 20px;
+}
