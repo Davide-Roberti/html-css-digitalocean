@@ -441,4 +441,50 @@ button.account:hover {
 .rockerbox {
     background-color: white;
     border: 1px solid #e7e8ea;
+    padding: 30px 40px;
+    margin-bottom: 25px;
+}
+
+.rockerbox img {
+    width: 190px;
+}
+
+.rockerbox p {
+    color: #8c93a5;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.rockerbox p.nome {
+    font-size: 17px;
+}
+
+.rockerbox span {
+    color: #8c93a5;
+    font-size: 12px;
+}
+
+.rockerbox a {
+    color: #3e72bd;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.teams {
+    text-decoration: underline;
+    color: #3e72bd;
+}
+
+.teams:hover {
+    color: #3e72bd;
+}
+
+.rockerbox a:hover {
+    color: #3e72bd;
+    text-decoration: none;
+}
+
+.sezione-slide span.rockerbox-lt-gt {
+    transform: translateY(150px);
 }
