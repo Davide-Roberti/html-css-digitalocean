@@ -17,7 +17,7 @@
 /* stilizzazione navbar */
 
 header {
-    height: 72px;
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,9 +35,14 @@ header {
     transform: translateY(-72px);
 }
 
+.logo-bianco {
+    width: 150px;
+}
+
 .navbar {
     overflow-y: hidden;
 }
+
 
 .navbar-default .navbar-nav>li>a {
     color: #434d66;
@@ -50,6 +55,11 @@ header {
     border: 1px solid #0a68ee;
     border-radius: 4px;
     padding: 8px 15px 5px;
+}
+
+.navbar-default .navbar-right>li>a {
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
 
 .navbar-default button:hover {
@@ -79,8 +89,8 @@ header {
 }
 
 #jumbotron .testi {
-    position: relative;
-    top: 90px;
+    margin-top: 130px;
+    padding-bottom: 30px;
 }
 
 #jumbotron .testi p {
@@ -382,6 +392,11 @@ button.account:hover {
     text-decoration: none;
 }
 
+.business .card {
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+
 /* stilizzazione sezione world */
 
 .world {
@@ -533,6 +548,7 @@ button.account:hover {
 
 .footer-superiore ul {
     padding-top: 15px;
+    margin-bottom: 30px;
 }
 
 .footer-superiore li {
@@ -572,4 +588,50 @@ button.account:hover {
 
 .footer-inferiore a:hover {
     color: white;
+}
+
+/* media query */
+
+@media screen and (max-width: 767px) {
+    #jumbotron .testi {
+        margin-top: 0;
+    }
+
+    #jumbotron .testi h1 {
+        font-size: 40px;
+    }
+
+    #jumbotron {
+        background-image: none;
+        padding-top: 0;
+    }
+
+    #jumbotron .container {
+        padding-top: 80px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .navbar {
+        background-color: #0049ff;
+        border: none;
+        padding-top: 20px;
+    }
+
+    .navbar-default button {
+        background-color: #0049ff;
+        border: none;
+    }
+
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #7ba4ff;
+    }
+
+    .navbar-default .navbar-header button:hover {
+        background-color: #0049ff;
+        border: none;
+    }
 }
