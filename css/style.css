@@ -414,14 +414,8 @@ button.account:hover {
     margin-bottom: 60px;
 }
 
-.world span {
-    padding-right: 70px;
-}
-
 .world a {
     text-align: right;
-    display: inline-block;
-    float: right;
     margin-right: 15px;
     font-weight: 600;
     color: #24beca;
@@ -432,15 +426,17 @@ button.account:hover {
     text-decoration: none;
 }
 
+.world hr {
+    border: 1px solid #3c517e;
+    margin-bottom: 10px;
+}
+
 .linea-world {
-    padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #3c517e;
 }
 
 .linea-world:last-child {
-    border-bottom: none;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .linea-world .targa {
